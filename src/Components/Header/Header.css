@@ -1,0 +1,22 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 40px;
+    height: 150px;
+    align-items: center;
+    border-bottom: 1px solid #E5E5E5;
+}
+
+#header h3{
+    font-size: 12px;
+    color: #7D7D7D;
+}
+
+#header h3:hover{
+    cursor: pointer;
+}
+
+#header img{
+    width: 170px;
+}
+
