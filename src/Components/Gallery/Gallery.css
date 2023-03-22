@@ -1,0 +1,175 @@
+
+#gallery{
+    margin: 0 20px;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1500px;
+    align-items: center;
+    
+    
+}
+
+#Starry-Night{
+
+    background: url("../../assets/starry-night/gallery.jpg");
+    width: 310px;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+#The-Storm-on-the-Sea-of-Galilee{
+
+    background: url("../../assets/the-storm-on-the-sea-of-galilee/gallery.jpg");
+    width: 310px;
+    height: 360px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#Lady-with-an-Ermine{
+    background: url("../../assets/lady-with-an-ermine/gallery.jpg");
+    width: 310px;
+    height: 420px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#The-Boy-in-the-Red-Vest{
+    background: url("../../assets/the-boy-in-the-red-vest/gallery.jpg");
+    width: 310px;
+    height: 260px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#Girl-with-a-Pearl-Earring{
+
+    background-image: url("../../assets/girl-with-pearl-earring/gallery.jpg");
+    width: 310px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#The-Great-Wave-off-Kanagawa{
+    background-image: url("../../assets/the-great-wave-off-kanagawa/gallery.jpg");
+    width: 310px;
+    height: 280px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#The-Night-Café{
+    background-image: url("../../assets/the-night-cafe/gallery.jpg");
+    width: 310px;
+    height: 260px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#Arnolfini-Portrait{
+    background-image: url("../../assets/arnolfini-portrait/gallery.jpg");
+    width: 310px;
+    height: 330px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#Guernica{
+    background-image: url("../../assets/guernica/gallery.jpg");
+    width: 310px;
+    height: 285px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#Van-Gogh-Self-portrait{
+    background-image: url("../../assets/van-gogh-self-portrait/gallery.jpg");
+    width: 310px;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#Mona-Lisa{
+    background-image: url("../../assets/mona-lisa/gallery.jpg");
+    width: 310px;
+    height: 525px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+#Penitent-Magdalene{
+    background-image: url("../../assets/penitent-magdalene/gallery.jpg");
+    width: 310px;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#The-Sleeping-Gypsy{
+    background-image: url("../../assets/the-sleeping-gypsy/gallery.jpg");
+    width: 310px;
+    height: 250px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#The-Basket-of-Apples{
+    background-image: url("../../assets/the-basket-of-apples/gallery.jpg");
+    width: 310px;
+    height: 430px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#The-Swing{
+    background-image: url("../../assets/the-swing/gallery.jpg");
+    width: 310px;
+    height: 340px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.art-ctr{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    justify-content: flex-end;
+    background-position: center;
+    
+}
+
+.art-ctr:hover{
+    cursor: pointer;
+}
+
+.art-ctr h4, h5{
+
+    margin-left: 25px;
+    margin-top: 0;
+}
+
+.art-ctr h4{
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+.art-ctr h5{
+    font-size: 13px;
+    font-weight: normal;
+    
+}
