@@ -48,15 +48,15 @@
 
 #artist{
     height: 128px;
-    margin-top: 50%;
-    margin-left: -30%;
+    margin-top: 40%;
+    margin-left: -25%;
 }
 
 #text{
     width: 40%;
     display: flex;
     flex-direction: column;
-    margin-left: -20%;
+    margin-left: -28%;
     
     
 }
@@ -81,3 +81,29 @@
     color: #7D7D7D
 }
 
+#enlarge-button{
+    background-color: rgba(12, 12, 12, 0.726);
+    height: 40px;
+    width: 142px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: -52%;
+    margin-top: 42%;
+}
+
+#enlarge-button h6{
+    color: white;
+    font-size: 10px;
+    letter-spacing: 2.14px;
+}
+
+#enlarge-button:hover{
+    cursor: pointer;
+}
+
+#view-button{
+    height: 12px;
+    color: white;
+    
+}

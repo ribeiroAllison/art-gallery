@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom";
 import "./ArtDetail.css"
 import Footer from "../Footer/Footer";
+import viewButton from "../../../public/assets/shared/icon-view-image.svg"
 
 
 
@@ -34,8 +35,14 @@ export default function ArtDetail(props) {
                         <h1>{pageArt.name}</h1>
                         <p>{pageArt.artist.name}</p>
                     </div>
-                    <img id="artist" src={artistPath}/>
+                    <img id="artist" src={artistPath} alt="artist picture"/>
+                    <div id="enlarge-button">
+                        <img id="view-button" src={viewButton} alt="enlarge picture button"/>
+                        <h6>VIEW IMAGE</h6>
+                    </div>
+                    
                 </div>
+                
                 
                 <div id="text">
                     <h1>{pageArt.year}</h1>
