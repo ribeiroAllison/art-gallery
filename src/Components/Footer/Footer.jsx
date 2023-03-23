@@ -9,8 +9,8 @@ export default function Footer (props){
                 <p>{props.pageArt.artist.name}</p>
             </div>
             <div id="buttons">
-                <img src="../../../public/assets/shared/icon-back-button.svg" id="back-button"/>
-                <img src="../../../public/assets/shared/icon-next-button.svg"/>
+                <img src="assets/shared/icon-back-button.svg" id="back-button"/>
+                <img src="assets/shared/icon-next-button.svg"/>
 
             </div>
             
