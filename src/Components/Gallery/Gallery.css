@@ -1,7 +1,7 @@
 
 #gallery{
     margin: 0 20px;
-    color: antiquewhite;
+    color: white;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -150,6 +150,8 @@
     margin-top: 40px;
     justify-content: flex-end;
     background-position: center;
+    text-decoration: none;
+    color: white;
     
 }
 
@@ -161,7 +163,10 @@
 
     margin-left: 25px;
     margin-top: 0;
+    
 }
+
+
 
 .art-ctr h4{
     font-size: 24px;

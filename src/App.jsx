@@ -14,7 +14,8 @@ function App() {
   createBrowserRouter(createRoutesFromElements(
     <Route path="/" element={<Header />}>
       <Route index element={<Gallery art={art}/>} />
-      <Route path="art" element={<ArtDetail />}/>
+      <Route path="/:artName" element={<ArtDetail art={art}/>}/>
+      
       
     </Route>
   ))

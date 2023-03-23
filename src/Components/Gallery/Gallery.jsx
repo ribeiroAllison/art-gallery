@@ -1,4 +1,6 @@
 import "./Gallery.css"
+import { Link } from "react-router-dom";
+import Header from "../Header/Header";
 
 
 export default function Gallery(props) {
@@ -8,7 +10,8 @@ export default function Gallery(props) {
         return array[0];
     }
     
-    const artArray = ["Starry Night", 
+    const artArray = [
+    "Starry Night", 
     "The Storm on the Sea of Galilee", 
     "Lady with an Ermine", 
     "The Boy in the Red Vest", 
@@ -35,10 +38,10 @@ export default function Gallery(props) {
             {artArray.map((artName) => {
                 let artObj = findArt(artName);
                 return(
-                    <div className="art-ctr" id={generateId(artObj.name)} >
+                    <Link to={`/${generateId(artObj.name).toLowerCase()}`} className="art-ctr" id={generateId(artObj.name)} >
                         <h4>{artObj.name}</h4>
                         <h5>{artObj.artist.name}</h5>
-                    </div>
+                    </Link>
                 )
                     
             })}
