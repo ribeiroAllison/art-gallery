@@ -16,8 +16,8 @@ export default function ArtDetail(props) {
     const pageArtArray = artArray.filter(element=> element.name.split(' ').join('-').toLowerCase() === artName);
     const pageArt = pageArtArray[0];
     const pageArtName = pageArt.name.split(' ').join('-').toLowerCase();
-    const picturePath = `../../../public/assets/${pageArtName}/gallery.jpg`
-    const artistPath = `../../../public/assets/${pageArtName}/artist.jpg`
+    const picturePath = `assets/${pageArtName}/gallery.jpg`
+    const artistPath = `assets/${pageArtName}/artist.jpg`
     
 
     
