@@ -1,4 +1,4 @@
-import logo from "../../assets/img/galleria-logo.svg"
+import logo from "../../../public/assets/img/galleria-logo.svg"
 import "../../../src/Global.css"
 import "./Header.css"
 import { Outlet } from "react-router-dom"

@@ -1,0 +1,37 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #E5E5E5;
+    margin-top: 75px;
+}
+
+#footer-text{
+    margin-left: 41px;
+    
+}
+
+#footer-text p{
+    padding: 0;
+    margin-top: 8px;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+#footer-text h4{
+    margin-bottom: 0;
+    font-size: 18px;
+}
+
+#buttons{
+    margin-right: 41px;
+}
+
+
+#buttons img:hover{
+    cursor: pointer;
+}
+
+#back-button{
+    margin-right: 40px;
+}

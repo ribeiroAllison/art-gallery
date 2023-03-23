@@ -1,6 +1,6 @@
 import "./Gallery.css"
 import { Link } from "react-router-dom";
-import Header from "../Header/Header";
+
 
 
 export default function Gallery(props) {
