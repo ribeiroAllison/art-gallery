@@ -20,3 +20,7 @@
     width: 170px;
 }
 
+#header img:hover{
+    cursor: pointer;
+}
+
