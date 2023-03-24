@@ -17,6 +17,12 @@ export default function ArtDetail(props) {
         setPopUp(!popUp)
     };
 
+    if(popUp) {
+        document.body.classList.add('active-popUp')
+    } else {
+        document.body.classList.remove('active-popUp')
+    }
+
     const transformName = name => name.split(' ').join('-').toLowerCase();
     
 

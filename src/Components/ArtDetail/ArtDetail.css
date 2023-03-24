@@ -142,3 +142,7 @@
 #pop-up h6:hover{
     cursor: pointer;
 }
+
+body.active-popUp {
+    overflow-y: hidden;
+}
