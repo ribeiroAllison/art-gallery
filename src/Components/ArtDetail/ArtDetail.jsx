@@ -1,5 +1,6 @@
 import { useParams } from "react-router-dom"
 import { Link } from "react-router-dom";
+import { useState } from "react";
 import "./ArtDetail.css"
 import Footer from "../Footer/Footer";
 import viewButton from "../../../public/assets/shared/icon-view-image.svg"
@@ -10,13 +11,20 @@ import viewButton from "../../../public/assets/shared/icon-view-image.svg"
 
 export default function ArtDetail(props) {
 
+    const [popUp, setPopUp] = useState(false);
+
+    const togglePopUp = () => {
+        setPopUp(!popUp)
+    };
+
+    const transformName = name => name.split(' ').join('-').toLowerCase();
     
 
     let {artName} = useParams()
     const artArray = props.art[0];
-    const pageArtArray = artArray.filter(element=> element.name.split(' ').join('-').toLowerCase() === artName);
+    const pageArtArray = artArray.filter(element=> transformName(element.name) === artName);
     const pageArt = pageArtArray[0];
-    const pageArtName = pageArt.name.split(' ').join('-').toLowerCase();
+    const pageArtName = transformName(pageArt.name);
     const picturePath = `assets/${pageArtName}/gallery.jpg`
     const artistPath = `assets/${pageArtName}/artist.jpg`
     
@@ -36,8 +44,8 @@ export default function ArtDetail(props) {
                         <p>{pageArt.artist.name}</p>
                     </div>
                     <img id="artist" src={artistPath} alt="artist picture"/>
-                    <div id="enlarge-button">
-                        <img id="view-button" src={viewButton} alt="enlarge picture button"/>
+                    <div className="pop-up-button" onClick={togglePopUp}>
+                        <img id="view-button" src={viewButton} alt="enlarge picture button" />
                         <h6>VIEW IMAGE</h6>
                     </div>
                     
@@ -51,8 +59,19 @@ export default function ArtDetail(props) {
                 </div>
             </main>
 
+            <Footer artArray={artArray} pageArt={pageArt} transformName={transformName}/>
+            {popUp && (
+
+                <div id="pop-up">
+                    <div id="pop-ctr">
+                        <h6 onClick={togglePopUp}> CLOSE </h6>
+                        <img src={picturePath}></img>
+                    </div>
+                    
+                    
+                </div>
+            )}
             
-            <Footer pageArt={pageArt}/> 
 
         </section>
     )

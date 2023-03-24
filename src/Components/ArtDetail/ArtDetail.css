@@ -81,7 +81,7 @@
     color: #7D7D7D
 }
 
-#enlarge-button{
+.pop-up-button{
     background-color: rgba(12, 12, 12, 0.726);
     height: 40px;
     width: 142px;
@@ -92,18 +92,53 @@
     margin-top: 42%;
 }
 
-#enlarge-button h6{
+.pop-up-button h6{
     color: white;
     font-size: 10px;
     letter-spacing: 2.14px;
 }
 
-#enlarge-button:hover{
+.pop-up-button:hover{
     cursor: pointer;
 }
 
 #view-button{
     height: 12px;
+}
+
+#pop-up{
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    display: grid;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.877);
+    overflow-y: hidden;
+}
+
+#pop-ctr{
+
+}
+
+
+#pop-up img{
+    height: 70%;
+}
+
+#pop-up h6{
     color: white;
+    font-size: 14px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    text-align: end;
     
+    
+}
+
+#pop-up h6:hover{
+    cursor: pointer;
 }
