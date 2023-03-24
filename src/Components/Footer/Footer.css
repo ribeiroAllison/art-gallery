@@ -30,6 +30,7 @@ footer{
 
 #buttons img:hover{
     cursor: pointer;
+    opacity: 0.7;
 }
 
 #back-button{
