@@ -1,5 +1,4 @@
-import { useParams } from "react-router-dom"
-import { Link } from "react-router-dom";
+import { useParams, Link } from "react-router-dom"
 import { useState } from "react";
 import "./ArtDetail.css"
 import Footer from "../Footer/Footer";
