@@ -176,13 +176,132 @@
 @media only screen and (max-width: 1270px){
 
     #gallery{
-        height: 2700px;
-        width: 80%;
-        margin: auto;
+        height: 4000px;
     }
 
     .art-ctr{
-        width: 48%;
+        width: 47%;
     }
+
+    #Starry-Night{
+
+        
+        height: 9%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    
+    }
+    
+    #The-Storm-on-the-Sea-of-Galilee{
+    
+        
+        height: 12.5%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    
+    #Lady-with-an-Ermine{
+        
+        height: 15%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #The-Boy-in-the-Red-Vest{
+        
+        height: 9%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #Girl-with-a-Pearl-Earring{
+    
+        
+        height: 15%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #The-Great-Wave-off-Kanagawa{
+        
+        height: 9.5%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    
+    #The-Night-Café{
+        
+        height: 8%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    
+    #Arnolfini-Portrait{
+        
+        height: 13%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    
+    #Guernica{
+        
+        height: 12.5%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    
+    #Van-Gogh-Self-portrait{
+        
+        height: 17%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+    }
+    
+    #Mona-Lisa{
+        
+        height: 17%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 44px;
+    
+    }
+    
+    #Penitent-Magdalene{
+        
+        height: 9%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #The-Sleeping-Gypsy{
+        
+        height: 9%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #The-Basket-of-Apples{
+        
+        height: 16.5%;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    #The-Swing{
+        
+        height: 11%;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+
+}
 
 }
