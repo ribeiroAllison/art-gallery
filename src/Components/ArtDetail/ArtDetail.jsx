@@ -5,9 +5,6 @@ import Footer from "../Footer/Footer";
 import viewButton from "../../../public/assets/shared/icon-view-image.svg"
 
 
-
-
-
 export default function ArtDetail(props) {
 
     const [popUp, setPopUp] = useState(false);
