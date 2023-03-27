@@ -148,3 +148,89 @@
 body.active-popUp {
     overflow-y: hidden;
 }
+
+@media only screen and (max-width: 1000px){
+
+    #portrait{
+        flex-direction: column;
+        
+        
+        
+    }
+
+    #art-img img{
+        height: 560px;
+        width:475px;
+        margin-top: 0;
+    }
+
+    
+
+    #art-info{
+        flex-wrap: wrap;
+        
+    }
+
+        
+    #art-name{
+    
+        background-color: white;
+        margin-left: 30%;
+        margin-top: -120%;
+        height: 174px;
+        padding-bottom: 50px;
+        
+        
+    
+    }
+
+    #art-name h1{
+        width: 70%;
+    }
+
+    #art-name p{
+        margin-top: 10px;
+    }
+
+    #artist{
+        height: 128px;
+        width: 128px;
+        margin: 0;
+        margin-left: 110%;
+    }
+
+    #text{
+        width: 100%;
+        margin: 10% 2% 0 2%;
+        
+    }
+
+    #text p{
+        line-height: 1.8;
+        color: #7D7D7D;
+        width: 60%;
+        margin: -150px auto 80px auto;
+
+    }
+
+    #text h1{
+        font-size: 250px;
+        color: #d6d6d6;
+    }
+
+    #text a{
+        margin-left: 12%;
+    }
+
+    .pop-up-button{
+        background-color: rgba(12, 12, 12, 0.726);
+        height: 40px;
+        width: 142px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin: 150px 0 0 20px;
+    }
+
+
+}
