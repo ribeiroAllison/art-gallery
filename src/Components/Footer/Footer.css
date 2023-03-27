@@ -36,3 +36,33 @@ footer{
 #back-button{
     margin-right: 40px;
 }
+
+@media only screen and (max-width: 500px){
+
+    footer{
+        margin: 0;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #footer-text{
+        margin-left: 10px;
+    }
+
+    #footer-text h4{
+        font-size: 14px;
+    }
+
+    #buttons{
+        margin-right: 10px;
+    }
+
+    #buttons img{
+        width: 16px;
+    }
+
+    #back-button{
+        margin-right: 30px;
+    }
+
+}
