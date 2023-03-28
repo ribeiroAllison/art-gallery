@@ -22,39 +22,39 @@
 This is a web app for an Art Gallery. Is displays a picture and give information of some famous paintings.
 It is also possible to activate a slideshow feature, where all arts are displayed for a few seconds each.
 
+It took me somewhere about 30 hours to finish this.
+
 
 ### The challenge
 
 Users should be able to:
 
-- Click in any painting and see information about it, such as its year of creation, painter and description.
-- See the web app in any screen size with an appropriate style for each of them.
-- Start a slideshow where each painting is displayed for a few seconds.
+- `Click in any painting` and see information about it, such as its year of creation, painter and description.
+- See the web app in `any screen size` with an appropriate style for each of them.
+- Start a `slideshow` where each painting is displayed for a few seconds.
 - See no loading or refresh screen anywhere on the page.
 
 
 ### Links
 
 - Finished project: [galleria](https://art-gallery-ribeiroallison.vercel.app/)
--
+
 
 ## My process
 
 ### Built with
 
 - [React](https://reactjs.org/) - JS library
-- Route hooks (useEffect, useState, useNavigate)
+- Route hooks (useEffect, useState, useNavigate, useParam)
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- A ridiculous amount of media query adaptations
+- A ridiculous amount of `media query` adaptations
 
 ### What I learned
 
-Took me somewhere about 30 hours to finish this.
-
-- Sometimes CSS can be harder to deal with than React.
-- How to better use proportions instead of fix pixel values while sizing stuff in CSS.
+- Sometimes CSS can be `harder than React`.
+- How to `better use proportions` instead of fix pixel values while sizing stuff in CSS.
 - How to manipulate the useEffect hook in a more complex way (you'll see it bellow...).
 
 #### Some code I'm pride of
@@ -89,4 +89,4 @@ useEffect(() => {
 
 ### Continued development
 
-It would be nice to have a progression bar during the slideshow.
+It would be nice to have a `progression bar` during the slideshow.
