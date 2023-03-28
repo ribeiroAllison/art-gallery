@@ -26,14 +26,16 @@ export default function Header (props) {
     
     const artArray = props.art[0];
     useEffect(() => {
-        navigate(url)
+        
         if (slideShowStatus) {
+            navigate(url)
             const timeoutId = setTimeout(() => {
             const pageArtArray = artArray.filter((element) => element.order === position);
             const pageArt = pageArtArray[0];
             if (pageArt) {
                 const path = `/${props.transformName(pageArt.name)}`;
                 setUrl(path);
+                
                 setPosition((prevPosition) => prevPosition === 15 ? 1 : prevPosition + 1);
             } else {
                 setSlideShowStatus(false);
