@@ -19,8 +19,7 @@ export default function ArtDetail(props) {
         document.body.classList.remove('active-popUp')
     }
 
-    const transformName = name => name.split(' ').join('-').toLowerCase();
-    
+    const transformName = props.transformName;
 
     let {artName} = useParams()
     const artArray = props.art[0];
