@@ -22,8 +22,6 @@ export default function Header (props) {
         setSlideShowStatus(!slideShowStatus);
     }
 
-
-    
     const artArray = props.art[0];
     useEffect(() => {
         
@@ -35,7 +33,6 @@ export default function Header (props) {
             if (pageArt) {
                 const path = `/${props.transformName(pageArt.name)}`;
                 setUrl(path);
-                
                 setPosition((prevPosition) => prevPosition === 15 ? 1 : prevPosition + 1);
             } else {
                 setSlideShowStatus(false);
