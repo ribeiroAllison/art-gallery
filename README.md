@@ -1,4 +1,4 @@
-# React Pokedex
+# Art Gallery
 
 ![alt screenshot of the program](/src/screenshot.jpg "Program screenshot")
 
